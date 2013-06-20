@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace OperdenFramework
+namespace OperFramework.Test
 {
     public partial class MainForm : Form
     {

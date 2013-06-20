@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual C# Express 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperdenFrameworkTest", "OperdenFrameworkTest\OperdenFrameworkTest.csproj", "{CB7B7475-E47F-4858-8535-A079C205260C}"
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperFramework.Test", "OperdenFrameworkTest\OperFramework.Test.csproj", "{CB7B7475-E47F-4858-8535-A079C205260C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperdenFramework", "OperdenFramework\OperdenFramework.csproj", "{655669AD-DA11-4004-8A95-2831983D8202}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperFramework.Utils", "OperdenFramework\OperFramework.Utils.csproj", "{655669AD-DA11-4004-8A95-2831983D8202}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{24C18018-62CD-498A-80C7-1EADF014E0EE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperFramework.UnitTests", "UnitTests\OperFramework.UnitTests.csproj", "{24C18018-62CD-498A-80C7-1EADF014E0EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperFramework.DataLayer", "OperFramework.Data\OperFramework.DataLayer.csproj", "{F653B60D-974D-4B82-A2BF-43E2FA89A24B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperFramework.PresentationLayer", "OperFramework.PresentationLayer\OperFramework.PresentationLayer.csproj", "{C5B56666-119B-4ACC-B934-D6CEA11EA3C9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +51,26 @@ Global
 		{24C18018-62CD-498A-80C7-1EADF014E0EE}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{24C18018-62CD-498A-80C7-1EADF014E0EE}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{24C18018-62CD-498A-80C7-1EADF014E0EE}.Release|x86.ActiveCfg = Release|Any CPU
+		{F653B60D-974D-4B82-A2BF-43E2FA89A24B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F653B60D-974D-4B82-A2BF-43E2FA89A24B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F653B60D-974D-4B82-A2BF-43E2FA89A24B}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{F653B60D-974D-4B82-A2BF-43E2FA89A24B}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{F653B60D-974D-4B82-A2BF-43E2FA89A24B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F653B60D-974D-4B82-A2BF-43E2FA89A24B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F653B60D-974D-4B82-A2BF-43E2FA89A24B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F653B60D-974D-4B82-A2BF-43E2FA89A24B}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{F653B60D-974D-4B82-A2BF-43E2FA89A24B}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{F653B60D-974D-4B82-A2BF-43E2FA89A24B}.Release|x86.ActiveCfg = Release|Any CPU
+		{C5B56666-119B-4ACC-B934-D6CEA11EA3C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5B56666-119B-4ACC-B934-D6CEA11EA3C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5B56666-119B-4ACC-B934-D6CEA11EA3C9}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{C5B56666-119B-4ACC-B934-D6CEA11EA3C9}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{C5B56666-119B-4ACC-B934-D6CEA11EA3C9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C5B56666-119B-4ACC-B934-D6CEA11EA3C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5B56666-119B-4ACC-B934-D6CEA11EA3C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5B56666-119B-4ACC-B934-D6CEA11EA3C9}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{C5B56666-119B-4ACC-B934-D6CEA11EA3C9}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{C5B56666-119B-4ACC-B934-D6CEA11EA3C9}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

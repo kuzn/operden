@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using NUnit.Framework;
-using OperdenFramework.Common;
+using OperFramework.Utils;
 
-namespace UnitTests.Common
+namespace OperFramework.UnitTests.Common
 {
 	[TestFixture]
 	public class StringExtensions

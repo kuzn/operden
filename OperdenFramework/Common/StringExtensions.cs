@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 
-namespace OperdenFramework.Common
+namespace OperFramework.Utils
 {
 	public static class StringExtensions
 	{

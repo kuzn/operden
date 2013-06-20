@@ -1,4 +1,4 @@
-﻿namespace OperdenFramework
+﻿namespace OperFramework.Test
 {
     partial class MainForm
     {
