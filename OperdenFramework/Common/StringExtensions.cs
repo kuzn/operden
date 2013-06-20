@@ -25,7 +25,7 @@ namespace OperdenFramework.Common
 		}
 		
 		/// <summary>
-		/// Split string into lines.
+		/// Splits string into lines.
 		/// </summary>
 		public static IEnumerable<string> GetLines(this string str)
 		{
